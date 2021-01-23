@@ -5,10 +5,12 @@
 }
 
 .Nav button {
-    text-decoration: underline solid transparent;
     transition: text-decoration 0.5s ease, background-color 0.5s ease;
     padding-top:10px;
     border: none;
+    border-bottom-style: solid;
+    border-color:  white;
+    outline: none;
     width:15%;
     background: none;
     color:white;
@@ -17,6 +19,13 @@
 }
 
 .Nav button:hover {
-    text-decoration: underline solid currentColor;
     background-color: #1e1f1c;
+}
+
+@media only screen and (max-width:600px) {
+
+    .Nav button{
+        width:50%;
+    }
+
 }

@@ -4,3 +4,10 @@
 .Portrait img {
     max-height: 600px;
 }
+
+@media only screen and (max-width:600px) {
+
+    .Portrait img {
+        max-height:160px;
+    }
+}

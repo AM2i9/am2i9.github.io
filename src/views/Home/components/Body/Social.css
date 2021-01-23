@@ -4,8 +4,8 @@
 }
 
 .Social img{
-    max-width:32px;
-    max-height:32px;
+    max-width:64px;
+    max-height:64px;
     margin:auto;
     vertical-align: middle;
 }
@@ -19,11 +19,24 @@ ul {
 
 li {
     display:inline-block;
-    width:5%;
+    width:15%;
 
 }
 
 li a{
     width:50%;
     height:10px;
+}
+
+@media only screen and (max-width:600px) {
+
+    li{
+        width:50%;
+    }
+
+    .Social img {
+        max-width:60px;
+        max-height:60px
+    }
+
 }

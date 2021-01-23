@@ -2,3 +2,11 @@
     border-radius: 50%;
     height:500px;
 }
+
+@media only screen and (max-width:600px) {
+
+    .Logo img {
+        height:250px;
+    }
+
+}
