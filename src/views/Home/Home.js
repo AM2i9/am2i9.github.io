@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import '../../index.css';
 import Title from './components/Header/Title'
 import Logo from './components/Body/Logo'
 import Social from './components/Body/Social'

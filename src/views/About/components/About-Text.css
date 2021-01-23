@@ -1,0 +1,15 @@
+.AboutText h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin:none;
+    height:55px;
+    text-decoration: underline solid currentColor;
+    font-size:50px;
+    text-align: center;
+}
+
+.AboutText p {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width:40%;
+}
