@@ -9,9 +9,9 @@ class Nav extends React.Component {
     render() {
         return (
         <div className="Nav">
-            <button id="home" onClick={() => this.setWindowLocation('/')}>Home</button>
-            {/*<button id="projects" onClick={() => this.setWindowLocation('/projects')}>Projects</button>*/}
-            <button id="about" onClick={() => this.setWindowLocation('/about')}>About</button>
+            <button id="home" onClick={() => this.setWindowLocation('/#/')}>Home</button>
+            {/*<button id="projects" onClick={() => this.setWindowLocation('/#/projects')}>Projects</button>*/}
+            <button id="about" onClick={() => this.setWindowLocation('/#/about')}>About</button>
         </div>
         )
     }

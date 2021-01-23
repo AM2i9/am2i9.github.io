@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter,Switch,Route} from 'react-router-dom'
+import {HashRouter,Switch,Route} from 'react-router-dom'
 import Nav from './components/Nav'
 import Home from './views/Home/Home'
 import Projects from './views/Projects/Projects'
@@ -8,7 +8,7 @@ import About from './views/About/About'
 class App extends React.Component {
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter>
                 <Nav />
                 <div className="app">
                     <Switch>
@@ -17,7 +17,7 @@ class App extends React.Component {
                         <Route exacpt path='/about' component={About}/>
                     </Switch>
                 </div>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }
