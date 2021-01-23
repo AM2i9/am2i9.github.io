@@ -1,0 +1,22 @@
+.Nav {
+    margin: auto;
+    text-align: center;
+    height: 1px;
+}
+
+.Nav button {
+    text-decoration: underline solid transparent;
+    transition: text-decoration 0.5s ease, background-color 0.5s ease;
+    padding-top:10px;
+    border: none;
+    width:15%;
+    background: none;
+    color:white;
+    font-size:25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.Nav button:hover {
+    text-decoration: underline solid currentColor;
+    background-color: #1e1f1c;
+}

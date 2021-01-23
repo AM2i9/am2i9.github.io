@@ -1,0 +1,29 @@
+.Social {
+    height:32px;
+    padding-top:150px;
+}
+
+.Social img{
+    max-width:32px;
+    max-height:32px;
+    margin:auto;
+    vertical-align: middle;
+}
+ul {
+    margin:auto;
+    padding:0;
+    list-style-type: none;
+    position: relative;
+    display:inline;
+}
+
+li {
+    display:inline-block;
+    width:5%;
+
+}
+
+li a{
+    width:50%;
+    height:10px;
+}

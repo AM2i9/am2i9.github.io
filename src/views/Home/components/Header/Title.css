@@ -1,0 +1,18 @@
+.Title h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin:none;
+    height:55px;
+    text-decoration: underline solid currentColor;
+    font-size:100px;
+    text-align: center;
+}
+
+.Title h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin:none;
+    padding-top:none;
+    font-size:30px;
+    text-align: center;
+}
