@@ -62,10 +62,10 @@ class Project extends React.Component {
                 <div className="info" style={{display: this.state.display ? 'inline-block' : 'none'}}>
 
                 {this.props.video &&
-                    <iframe width="560" height="315" src={this.props.video} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="Project Video" width="560" height="315" src={this.props.video} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 }
                 {this.props.image &&
-                    <img id="project-image" src={this.props.image}></img>
+                    <img id="project" src={this.props.image} alt="Project Image"></img>
                 }
 
                     <div id="p">{this.props.description}</div>
