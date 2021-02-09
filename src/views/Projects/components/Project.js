@@ -14,6 +14,7 @@ class Project extends React.Component {
         this.handleClick = this.handleClick.bind(this)
         this.openGithub = this.openGithub.bind(this)
         this.openRepl = this.openRepl.bind(this)
+        this.openDeployment = this.openDeployment.bind(this)
     } 
 
     show(){
@@ -59,6 +60,11 @@ class Project extends React.Component {
             <div className="Project">
                 <button className="Button" onClick={this.handleClick}><text>{this.props.name}</text>   <div className="arrow">{this.state.arrow}</div></button>
                 <div className="info" style={{display: this.state.display ? 'inline-block' : 'none'}}>
+
+                {this.props.image &&
+                    <img id="project-image" src={this.props.image}></img>
+                }
+
                     <p>{this.props.description}</p>
 
                 {this.props.github_link &&
