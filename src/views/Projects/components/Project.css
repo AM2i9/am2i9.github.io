@@ -44,9 +44,14 @@
     white-space: pre-line;
 }
 
-.Project .info p{
+.Project .info #p{
     margin-left:20px;
     margin-right:20px;
+}
+
+.Project .info img{
+    max-height: 500px;
+    max-width: 75%;
 }
 
 .sourceButton {

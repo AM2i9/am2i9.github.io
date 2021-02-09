@@ -61,11 +61,14 @@ class Project extends React.Component {
                 <button className="Button" onClick={this.handleClick}><text>{this.props.name}</text>   <div className="arrow">{this.state.arrow}</div></button>
                 <div className="info" style={{display: this.state.display ? 'inline-block' : 'none'}}>
 
+                {this.props.video &&
+                    <iframe width="560" height="315" src={this.props.video} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                }
                 {this.props.image &&
                     <img id="project-image" src={this.props.image}></img>
                 }
 
-                    <p>{this.props.description}</p>
+                    <div id="p">{this.props.description}</div>
 
                 {this.props.github_link &&
                     <button id="github-page" className="sourceButton" onClick={this.openGithub}>
