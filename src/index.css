@@ -15,9 +15,7 @@ code {
 
 .footer {
   color:white;
-  text-align: center;
   position: fixed;
   bottom:0px;
-  width:100%;
   margin-bottom: 5px;
 }

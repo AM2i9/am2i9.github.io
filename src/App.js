@@ -18,7 +18,6 @@ class App extends React.Component {
                         <Route exacpt path='/about' component={About}/>
                     </Switch>
                 </div>
-                <div className="footer">©2021 Patrick Brennan (AM2i9)</div>
             </HashRouter>
         )
     }
