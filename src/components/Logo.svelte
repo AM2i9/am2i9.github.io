@@ -30,7 +30,7 @@
 	.logo img {
 
 		animation-duration: 3s;
-		animation-name: img-fade-in;
+		animation-name: load-fade-in;
 
 		margin-top: 20px;
 		width: 400px;
@@ -66,15 +66,6 @@
 		}
 		to {
 			transform: translateY(0px);
-			opacity: 100%;
-		}
-	}
-
-	@keyframes img-fade-in {
-		0%, 40% {
-			opacity: 0%;
-		}
-		to {
 			opacity: 100%;
 		}
 	}
