@@ -11,7 +11,7 @@
         align-items: center;
         flex-direction: column;
 
-        animation-duration: 6s;
+        animation-duration: 2s;
         animation-name: load-fade-in;
     }
 
