@@ -6,10 +6,12 @@
 
 	.media-links {
 
+		width: 100%;
+
 		animation-duration: 4s;
 		animation-name: load-fade-in;
 		
-		margin: 40px;
+		margin-top: 40px;
 		display: flex;
 		justify-content: space-evenly;
 		align-items: center;

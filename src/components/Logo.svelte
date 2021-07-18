@@ -76,5 +76,6 @@
 	<h1 id="username" class="logo">AM2i9</h1>
 	<hr id="seperator" class="logo"/>
 	<h2 id="full-name" class="logo">Patrick Brennan</h2>
-	<img src="https://github.com/AM2i9.png" alt="Current Github Profile Picture">
+	<!-- svelte-ignore a11y-img-redundant-alt -->
+	<img alt="Current Github Profile Picture" src="https://github.com/AM2i9.png">
 </div>
