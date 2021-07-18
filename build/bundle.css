@@ -14,9 +14,16 @@ body {
 }
  
 main {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
+	height: 100%;
+}
+
+.view {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	color: rgb(206, 206, 206);
 }
 
 @keyframes load-fade-in {
@@ -30,4 +37,9 @@ main {
 
 .logo.svelte-1at8n13.svelte-1at8n13{text-align:center;margin-bottom:0px;margin-top:0px}.logo.svelte-1at8n13 #username.svelte-1at8n13{animation-duration:1s;animation-name:svelte-1at8n13-fade-slide-top;font-size:5rem}.logo.svelte-1at8n13 #full-name.svelte-1at8n13{animation-duration:1s;animation-name:svelte-1at8n13-fade-slide-bottom;font-size:2rem}.logo.svelte-1at8n13 #seperator.svelte-1at8n13{animation-duration:2s;animation-name:svelte-1at8n13-x-fade-scale-in;width:350px;height:3px;background-color:#fff}.logo.svelte-1at8n13 img.svelte-1at8n13{animation-duration:3s;animation-name:load-fade-in;margin-top:20px;width:400px;border-radius:50%}@keyframes svelte-1at8n13-x-fade-scale-in{0%,20%{transform:scaleX(0);opacity:0%}to{transform:scaleX(1);opacity:100%}}@keyframes svelte-1at8n13-fade-slide-top{0%,20%{transform:translateY(-50px);opacity:0%}to{transform:translateY(0px);opacity:100%}}@keyframes svelte-1at8n13-fade-slide-bottom{0%,20%{transform:translateY(50px);opacity:0%}to{transform:translateY(0px);opacity:100%}}
 img.svelte-tcc5ov{max-width:64px;max-height:64px}
-.media-links.svelte-ydl4l2{animation-duration:4s;animation-name:load-fade-in;margin:40px;display:flex;justify-content:space-evenly;align-items:center}
+.media-links.svelte-f2mded{width:100%;animation-duration:4s;animation-name:load-fade-in;margin-top:40px;display:flex;justify-content:space-evenly;align-items:center}
+.scroll-arrow.svelte-qwc1vi{display:flex;align-self:stretch;justify-content:center;align-items:stretch;margin:20px;animation-duration:5s;animation-name:load-fade-in}.arrow.svelte-qwc1vi{cursor:pointer;transition:background-color 0.1s;width:40px;height:40px;margin:-20px 0 0 -20px;transform:rotate(45deg);border-left:none;border-top:none;border-right:5px #fff solid;border-bottom:5px #fff solid}.arrow.svelte-qwc1vi:hover{background-color:rgba(255, 255, 255, 0.1)
+	}
+#home.svelte-br0n23{display:flex;flex-direction:column;justify-content:center}
+#about.svelte-q84bhb{display:flex;text-align:center;justify-content:center;align-items:center;flex-direction:column;animation-duration:6s;animation-name:load-fade-in}h1.svelte-q84bhb{font-size:3rem}p.svelte-q84bhb{max-width:65%;font-size:1.1rem}
+#footer.svelte-1vecxsn.svelte-1vecxsn{display:flex;align-items:center;text-align:center}#footer.svelte-1vecxsn a.svelte-1vecxsn{font-size:1.2rem;width:100%;padding-bottom:20px;cursor:pointer}#footer.svelte-1vecxsn a.svelte-1vecxsn:hover{background-color:rgba(255, 255, 255, 0.2)}
