@@ -1,4 +1,7 @@
-<!---->
+<script>
+    import ScrollArrow from "../components/ScrollArrow.svelte";
+</script>
+
 <style>
 
     #about {
@@ -21,11 +24,20 @@
         font-size: 1.1rem;
     }
 
+    @media only screen and (max-width:600px) {
+
+        p {
+            max-width: 85%;
+            font-size: 1.1rem;
+        }
+    }
+
 </style>
 
 <div id="about" class="view">
+    <ScrollArrow href="#home" up />
     <h1>Hello, my name is Patrick 👋</h1>
     <p>I'm a guy with a love for computers. I mostly do backend-type stuff using Python, but sometimes I try to branch into other languages, such as JavaScript or TypeScript. I also have <i>some</i> experience in C, Java, Lua, and of course JavaScript and Typescript.</p>
     <p>I also have experience with running Linux systems. A few of my projects are self-hosted in my basement.</p>
-    <p>You can see all of my little projects on <a href="https://github.com/am2i9" target="_blank" rel="noopener noreferrer">my Github</a>.</p> 
+    <p>You can see all of my little projects on <a href="https://github.com/am2i9" target="_blank" rel="noopener noreferrer">my Github</a>.</p>
 </div>

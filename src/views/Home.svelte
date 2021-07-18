@@ -1,4 +1,3 @@
-<!---->
 <script>
     import Logo from '../components/Logo'
     import MediaLinks from '../components/MediaLinks'
@@ -18,5 +17,5 @@
 <div id="home" class="view">
 	<Logo />
 	<MediaLinks />
-    <ScrollArrow />
+    <ScrollArrow href="#about"/>
 </div>

@@ -70,6 +70,13 @@
 		}
 	}
 
+	@media only screen and (max-width:600px) {
+
+		.logo img {
+			width: 200px;
+		}
+	}
+
 </style>
 
 <div class="logo">
