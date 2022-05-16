@@ -17,5 +17,4 @@
 <div id="home" class="view">
 	<Logo />
 	<MediaLinks />
-    <ScrollArrow href="#about"/>
 </div>
