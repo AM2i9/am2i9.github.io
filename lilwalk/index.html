@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.plot.ly/plotly-2.31.1.min.js" charset="utf-8"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+    <style>
+        body {
+            display: flex;
+            height: 100%;
+            margin: 0;
+        }
+
+        #chart {
+            flex-grow: 1;
+        }
+
+        /* I love workarounds :) */
+        .js-plotly-plot,
+        .plot-container {
+            height: 100vh
+        }
+    </style>
+    <script>
+        d3.csv('data/Location.csv', function (err, rows) {
+            function unpack(rows, key) {
+                return rows.map(function (row) { return row[key]; });
+            }
+
+            var x = unpack(rows, 'longitude');
+            var y = unpack(rows, 'latitude');
+            var z = unpack(rows, 'altitude');
+            Plotly.newPlot('chart', [{
+                type: 'scatter3d',
+                mode: 'lines',
+                x: x,
+                y: y,
+                z: z,
+                opacity: 1,
+                line: {
+                    width: 6,
+                    reversescale: false
+                }
+            }], {
+                autosize: true,
+                title: {
+                    text: "Just a little walk to clear my head...",
+                    xanchor: "left",
+                    x: 0,
+                    pad: { l: 15 }
+                },
+                paper_bgcolor: "#AAAAAA",
+                scene: {
+                    aspectratio: { x: 3, y: 1.5, z: 0.5 },
+                    zaxis: {
+                        range: [120, 160],
+                        gridcolor:"#fff"
+                    }
+                } 
+            },
+                { responsive: true });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="chart"></div>
+</body>
+
+</html>
